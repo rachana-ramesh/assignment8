@@ -7,6 +7,7 @@ input[type="text"] {
     width: 15em;
     margin-bottom: 1em;
     border-color: #4CA7FF;
+       
 }
 
 /* #add {
@@ -44,7 +45,7 @@ td {
 
 #employee_data td, #employee_data th {
   border: 1px solid #ddd;
-  padding: 8px;
+  padding: 15px;
 } 
 
 #employee_data tr:nth-child(even){background-color: aliceblue;}
