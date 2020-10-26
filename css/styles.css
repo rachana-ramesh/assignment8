@@ -1,0 +1,60 @@
+body {
+    font-family: sans-serif;
+    width: 730px;
+}
+
+input[type="text"] {
+    width: 15em;
+    margin-bottom: 1em;
+    border-color: #4CA7FF;
+}
+
+/* #add {
+    margin-top:20px;
+    background-color: deepskyblue;
+    color: aliceblue;
+    float: right;
+    clear: right;
+} */
+
+input[type="button"] {
+    margin-top:20px;
+    background-color: #4CA7FF;
+    color: aliceblue;
+    display: block;
+    margin: auto;
+    font-weight: bold;
+    border: 1px solid grey;
+    
+}
+
+span {
+    color: red;
+    font-size: 12px;
+}
+td {
+	width: 10em;	
+    border: 1px solid #ddd;
+}
+
+#employee_data {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#employee_data td, #employee_data th {
+  border: 1px solid #ddd;
+  padding: 8px;
+} 
+
+#employee_data tr:nth-child(even){background-color: aliceblue;}
+
+#employee_data tr:hover {background-color: skyblue;}
+
+#employee_data th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  background-color: #4CA7FF;
+  color: white;
+}
